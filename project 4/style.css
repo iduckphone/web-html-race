@@ -52,6 +52,7 @@
     padding: .15rem 1rem;
     border-radius: .8rem;
     transition-duration: .2s;
+    cursor: pointer;
 }
 
 .nav-btn:hover {
@@ -83,4 +84,218 @@
 .nav-input:focus {
     outline: none;
     opacity: 100%;
+}
+
+.container {
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.header {
+    height: 400px;
+    background-image: url(https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg);
+    background-size: 95rem;
+    background-position: -15rem -20rem;
+    border-radius: 2rem;
+    border: 3px solid var(--z200);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .8rem;
+}
+
+.header-content {
+    max-width: 35rem;
+    position: absolute;
+    text-align: center;
+    font-weight: 500;
+    color: var(--z200);
+    font-size: x-large;
+    text-shadow: 0 0 1rem #09090b;
+}
+
+.marquee {
+    border-radius: .8rem;
+    background-color: var(--z100);
+    font-size: large;
+    padding: .5rem;
+    margin-bottom: .8rem;
+}
+
+.content {
+    display: grid;
+    grid: 1fr / 1fr 3fr;
+    column-gap: 1rem;
+}
+
+.content-side {
+    display: grid;
+    row-gap: 1rem;
+}
+
+.card {
+    width: 100%;
+    border-radius: .8rem;
+    border: .1rem solid var(--z200);
+}
+
+.card-img {
+    border-radius: .8rem .8rem 0 0;
+    width: 100%;
+}
+
+.card-header {
+    background-color: var(--z700);
+    border-radius: .8rem .8rem 0 0;
+    padding: .7rem;
+    font-size: larger;
+    color: var(--z200);
+    font-weight: 700;
+    text-align: center;
+}
+
+.card-body {
+    background-color: var(--z100);
+    border-radius: 0 0 .8rem .8rem;
+    display: grid;
+}
+
+.card-title {
+    font-size: large;
+    font-weight: 700;
+}
+
+.card-btn {
+    width: 100%;
+    background-color: var(--z700);
+    color: var(--z200);
+    border: none;
+    padding: .5rem 0;
+    font-weight: 600;
+    border-radius: .8rem;
+    cursor: pointer;
+    margin-top: .8rem;
+    transition: .2s;
+}
+
+.card-btn:hover {
+    background-color: var(--z600);
+}
+
+.card-side-btn {
+    border: none;
+    padding: .7rem 0;
+    font-size: medium;
+    font-weight: 600;
+    border-bottom: .1rem solid var(--z300);
+    cursor: pointer;
+}
+
+.card-side-btn:last-child {
+    border-radius: 0 0 .8rem .8rem;
+}
+
+.card-side-btn:hover {
+    background-color: var(--z200);
+}
+
+.card-input {
+    width: 100%;
+    border-radius: .8rem;
+    border: .1rem solid var(--z300);
+    padding: .4rem;
+    margin-top: .5rem;
+    margin-bottom: .8rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.card-input:focus {
+    outline: none;
+    border-color: var(--z400);
+    box-shadow: 0 0 0 .25rem rgba(63, 63, 63, 0.25)
+}
+
+.card-submit {
+    width: 100%;
+    background-color: var(--z700);
+    color: var(--z200);
+    border: none;
+    padding: .5rem 0;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: .8rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card-submit:hover {
+    background-color: var(--z600);
+}
+
+.card-box {
+    margin: .8rem;
+    padding: .8rem;
+    background-color: var(--z200);
+    border-radius: .8rem;
+}
+
+td {
+    text-align: center;
+}
+
+.content-main-header {
+    background-color: var(--z700);
+    border-radius: .8rem;
+    padding: .7rem;
+    font-size: larger;
+    color: var(--z200);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: .8rem;
+}
+
+.content-main-body {
+    display: grid;
+    gap: 1rem;
+    padding: .8rem;
+    margin-bottom: .8rem;
+    background-color: var(--z100);
+    border-radius: .8rem;
+
+}
+
+.content-main-overflow {
+    display: grid;
+    gap: 1rem;
+    background-color: var(--z100);
+    border-radius: .8rem;
+    overflow: auto;
+}
+
+.content-main-img {
+    border-radius: .8rem;
+    width: 100%;
+}
+
+.content-main-box {
+    border-radius: .8rem;
+    width: 100%;
+    background-color: var(--z200);
+    padding: .8rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    padding: 0.8rem;
+    background-color: var(--z700);
+    text-align: center;
+    color: var(--z100);
+    border-radius: 0.8rem;
+    font-weight: 600;
+    margin-top: 1rem;
 }
