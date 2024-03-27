@@ -1,0 +1,42 @@
+.header {
+  height: 400px;
+  background-image: url(https://gdb.voanews.com/29AB4DA2-FE05-4C86-A107-DCB0780A7630_w1200_r1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 2rem;
+  border: 3px solid var(--z200);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: .8rem;
+}
+
+.header::before {
+  content: " ";
+  border-radius: 2rem;
+  background-color: var(--z900);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 50%;
+}
+
+.header-content {
+  max-width: 35rem;
+  position: absolute;
+  text-align: center;
+  font-weight: 500;
+  color: var(--z200);
+  font-size: x-large;
+}
+
+.marquee {
+  border-radius: .8rem;
+  background-color: var(--z100);
+  font-size: large;
+  padding: .5rem;
+  margin-bottom: .8rem;
+}
