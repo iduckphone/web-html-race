@@ -23,7 +23,7 @@
 }
 
 .nav-btn {
-  background-color: var(--sky700);
+  background-image: linear-gradient(var(--sky700), var(--sky500));
   color: var(--sky200);
   opacity: 60%;
   border: 0;
@@ -50,7 +50,7 @@
 
 .nav-input {
   opacity: 60%;
-  background-color: var(--sky700);
+  background-image: linear-gradient(var(--sky700), var(--sky500));
   border: 0;
   padding: .15rem 1rem;
   border-radius: .8rem;

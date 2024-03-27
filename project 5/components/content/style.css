@@ -11,7 +11,7 @@
 }
 
 .content-main-header {
-  background-color: var(--sky700);
+  background-image: linear-gradient(var(--sky700), var(--sky500));
   border-radius: .8rem;
   padding: .7rem;
   font-size: larger;

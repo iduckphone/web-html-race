@@ -55,7 +55,7 @@
 }
 
 .nav-btn {
-    background-color: var(--sky700);
+    background-image: linear-gradient(var(--sky700), var(--sky500));
     color: var(--sky100);
     border: none;
     padding: .2rem .8rem;
@@ -71,7 +71,7 @@
 }
 
 .nav-search-input {
-    background-color: var(--sky700);
+    background-image: linear-gradient(var(--sky700), var(--sky500));
     color: var(--sky100);
     border: none;
     padding: .2rem .8rem;
@@ -96,7 +96,7 @@
 }
 
 .nav-search-btn {
-    background-color: var(--sky700);
+    background-image: linear-gradient(var(--sky700), var(--sky500));
     color: var(--sky100);
     border: none;
     padding: .2rem .8rem;
@@ -194,7 +194,7 @@
     font-size: large;
     color: var(--sky100);
     text-align: center;
-    background-color: var(--sky700);
+    background-image: linear-gradient(var(--sky700), var(--sky500));
     border-radius: .8rem;
     padding: .6rem;
 }
@@ -240,7 +240,7 @@
 
 .card-header {
     border-radius: .8rem .8rem 0 0;
-    background-color: var(--sky700);
+    background-image: linear-gradient(var(--sky700), var(--sky500));
     padding: .6rem;
     color: var(--sky100);
     font-weight: 600;
@@ -269,7 +269,7 @@
     width: 100%;
     border: 0;
     padding: .5rem;
-    background-color: var(--sky700);
+    background-image: linear-gradient(var(--sky700), var(--sky500));
     color: var(--sky100);
     border-radius: .8rem;
     transition-duration: 0.2s;
@@ -310,7 +310,7 @@
     width: 100%;
     border: 0;
     padding: .5rem;
-    background-color: var(--sky700);
+    background-image: linear-gradient(var(--sky700), var(--sky500));
     color: var(--sky100);
     border-radius: .8rem;
     font-weight: 600;
@@ -327,7 +327,7 @@
 
 .footer {
     padding: .8rem;
-    background-color: var(--sky700);
+    background-image: linear-gradient(var(--sky700), var(--sky500));
     text-align: center;
     color: var(--sky100);
     border-radius: .8rem;
@@ -347,7 +347,7 @@
 
 .scolls-btn {
     padding: .5rem;
-    background-color: var(--sky700);
+    background-image: linear-gradient(var(--sky700), var(--sky500));
     color: var(--sky100);
     border-radius: .8rem;
     font-weight: 600;
