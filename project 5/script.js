@@ -31,5 +31,5 @@ async function loadHtml(id, path, css, sticky = false) {
   await loadHtml("footer", "./components/footer/index.html", true);
   await loadHtml("content-side", "./components/content/side.html", true);
 
-  await loadHtml("content-main", "./routes/side2.html", false);
+  await loadHtml("content-main", "./routes/side4.html", false);
 })()
