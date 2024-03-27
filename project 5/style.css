@@ -79,11 +79,14 @@
 
 .card-side-btn {
   border: none;
-  padding: .7rem 0;
+  padding: .7rem 1rem;
   font-size: medium;
   font-weight: 600;
   border-bottom: .1rem solid var(--z300);
   cursor: pointer;
+  text-decoration: none;
+  color: var(--z800);
+  text-align: start;
 }
 
 .card-side-btn:nth-child(even) {
@@ -141,4 +144,8 @@
 
 td {
   text-align: center;
+}
+
+ul {
+  padding-left: 1.2rem;
 }
