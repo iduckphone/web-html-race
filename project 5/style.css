@@ -14,6 +14,20 @@
   --z950: #09090b;
 }
 
+:root {
+  --sky50: #f0f9ff;
+  --sky100: #e0f2fe;
+  --sky200: #bae6fd;
+  --sky300: #7dd3fc;
+  --sky400: #38bdf8;
+  --sky500: #0ea5e9;
+  --sky600: #0284c7;
+  --sky700: #0369a1;
+  --sky800: #075985;
+  --sky900: #0c4a6e;
+  --sky950: #082f49;
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -31,8 +45,8 @@
 .card {
   width: 100%;
   border-radius: .8rem;
-  border: .1rem solid var(--z200);
-  background-color: var(--z100);
+  border: .1rem solid var(--sky200);
+  background-color: var(--sky100);
 }
 
 .card-img {
@@ -41,11 +55,11 @@
 }
 
 .card-header {
-  background-color: var(--z700);
+  background-color: var(--sky700);
   border-radius: .8rem .8rem 0 0;
   padding: .7rem;
   font-size: larger;
-  color: var(--z200);
+  color: var(--sky200);
   font-weight: 700;
   text-align: center;
 }
@@ -62,8 +76,8 @@
 
 .card-btn {
   width: 100%;
-  background-color: var(--z700);
-  color: var(--z200);
+  background-color: var(--sky700);
+  color: var(--sky200);
   border: none;
   padding: .5rem 0;
   font-weight: 600;
@@ -74,7 +88,7 @@
 }
 
 .card-btn:hover {
-  background-color: var(--z600);
+  background-color: var(--sky600);
 }
 
 .card-side-btn {
@@ -82,15 +96,16 @@
   padding: .7rem 1rem;
   font-size: medium;
   font-weight: 600;
-  border-bottom: .1rem solid var(--z300);
+  border-bottom: .1rem solid var(--sky300);
   cursor: pointer;
   text-decoration: none;
-  color: var(--z800);
+  color: var(--sky800);
+  background-color: var(--sky100);
   text-align: start;
 }
 
 .card-side-btn:nth-child(even) {
-  background-color: var(--z200);
+  background-color: var(--sky200);
 }
 
 .card-side-btn:last-child {
@@ -99,13 +114,13 @@
 }
 
 .card-side-btn:hover {
-  background-color: var(--z300);
+  background-color: var(--sky300);
 }
 
 .form-input {
   width: 100%;
   border-radius: .8rem;
-  border: .1rem solid var(--z300);
+  border: .1rem solid var(--sky300);
   padding: .4rem;
   margin-top: .5rem;
   margin-bottom: .8rem;
@@ -114,14 +129,14 @@
 
 .form-input:focus {
   outline: none;
-  border-color: var(--z400);
+  border-color: var(--sky400);
   box-shadow: 0 0 0 .25rem rgba(63, 63, 63, 0.25)
 }
 
 .form-btn {
   width: 100%;
-  background-color: var(--z700);
-  color: var(--z200);
+  background-color: var(--sky700);
+  color: var(--sky200);
   border: none;
   padding: .5rem 0;
   font-size: medium;
@@ -132,13 +147,13 @@
 }
 
 .form-btn:hover {
-  background-color: var(--z600);
+  background-color: var(--sky600);
 }
 
 .card-box {
   margin: .8rem;
   padding: .8rem;
-  background-color: var(--z200);
+  background-color: var(--sky200);
   border-radius: .8rem;
 }
 

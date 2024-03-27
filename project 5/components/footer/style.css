@@ -1,8 +1,8 @@
 .footer {
   padding: 0.8rem;
-  background-color: var(--z700);
+  background-color: var(--sky700);
   text-align: center;
-  color: var(--z100);
+  color: var(--sky100);
   border-radius: 0.8rem;
   font-weight: 600;
 }
