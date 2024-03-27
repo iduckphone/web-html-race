@@ -32,6 +32,7 @@
   width: 100%;
   border-radius: .8rem;
   border: .1rem solid var(--z200);
+  background-color: var(--z100);
 }
 
 .card-img {
@@ -50,7 +51,6 @@
 }
 
 .card-body {
-  background-color: var(--z100);
   border-radius: 0 0 .8rem .8rem;
   display: grid;
 }
