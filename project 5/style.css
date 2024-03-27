@@ -17,7 +17,8 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Sarabun", sans-serif
+  font-family: "Sarabun", sans-serif;
+  line-height: 1.5rem;
 }
 
 .container {
