@@ -1,119 +1,121 @@
-<div class="content-side">
-  <div class="card">
-    <div class="card-header">
-      Menu
+<div>
+  <div class="content-side">
+    <div class="card">
+      <div class="card-header">
+        Menu
+      </div>
+      <div class="card-body">
+        <button onclick="loadHtml('content-main', './routes/side1.html')" class="card-side-btn">::
+          สภาพอากาศสุดขั้ว</button>
+        <button onclick="loadHtml('content-main', './routes/side2.html')" class="card-side-btn">::
+          สัตว์ผู้พิชิตความหนาว</button>
+        <button onclick="loadHtml('content-main', './routes/side3.html')" class="card-side-btn">::
+          ระบบนิเวศที่เปราะบาง</button>
+        <button onclick="loadHtml('content-main', './routes/side4.html')" class="card-side-btn">::
+          การสำรวจและการค้นพบ</button>
+        <button onclick="loadHtml('content-main', './routes/side5.html')" class="card-side-btn">::
+          ผู้คนและวัฒนธรรม</button>
+      </div>
     </div>
-    <div class="card-body">
-      <button onclick="loadHtml('content-main', './routes/side1.html')" class="card-side-btn">::
-        สภาพอากาศสุดขั้ว</button>
-      <button onclick="loadHtml('content-main', './routes/side2.html')" class="card-side-btn">::
-        สัตว์ผู้พิชิตความหนาว</button>
-      <button onclick="loadHtml('content-main', './routes/side3.html')" class="card-side-btn">::
-        ระบบนิเวศที่เปราะบาง</button>
-      <button onclick="loadHtml('content-main', './routes/side4.html')" class="card-side-btn">::
-        การสำรวจและการค้นพบ</button>
-      <button onclick="loadHtml('content-main', './routes/side5.html')" class="card-side-btn">::
-        ผู้คนและวัฒนธรรม</button>
+    <div class="card">
+      <div class="card-header">
+        Login
+      </div>
+      <div class="card-body">
+        <form style="padding: .8rem;">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" class="form-input">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" class="form-input">
+          <input type="submit" value="เข้าสู่ระบบ" class="form-btn">
+        </form>
+      </div>
     </div>
-  </div>
-  <div class="card">
-    <div class="card-header">
-      Member
+    <div class="card">
+      <div class="card-header">
+        25 March 2024
+      </div>
+      <div class="card-body" style="padding: .8rem;">
+        <table style="width: 100%;">
+          <tbody>
+            <tr>
+              <th>sun</th>
+              <th>mon</th>
+              <th>tue</th>
+              <th>wed</th>
+              <th>thu</th>
+              <th>fri</th>
+              <th>sat</th>
+            </tr>
+            <tr>
+              <td style="color: var(--z400);">26</td>
+              <td style="color: var(--z400);">27</td>
+              <td style="color: var(--z400);">28</td>
+              <td style="color: var(--z400);">29</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>12</td>
+              <td>13</td>
+              <td>14</td>
+              <td>15</td>
+              <td>16</td>
+              <td>17</td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>19</td>
+              <td>20</td>
+              <td>21</td>
+              <td>22</td>
+              <td>23</td>
+              <td>24</td>
+            </tr>
+            <tr>
+              <td>25</td>
+              <td style="background-color: var(--z200); border-radius: .8rem;">26</td>
+              <td>27</td>
+              <td>28</td>
+              <td>29</td>
+              <td>30</td>
+              <td>31</td>
+            </tr>
+            <tr>
+              <td style="color: var(--z400);">1</td>
+              <td style="color: var(--z400);">2</td>
+              <td style="color: var(--z400);">3</td>
+              <td style="color: var(--z400);">4</td>
+              <td style="color: var(--z400);">5</td>
+              <td style="color: var(--z400);">6</td>
+              <td style="color: var(--z400);">7</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-    <div class="card-body">
-      <form style="padding: .8rem;">
-        <label for="username">Username</label>
-        <input type="text" name="username" id="username" class="card-input">
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password" class="card-input">
-        <input type="submit" value="Login" class="card-submit">
-      </form>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header">
-      25 March 2024
-    </div>
-    <div class="card-body" style="padding: .8rem;">
-      <table style="width: 100%;">
-        <tbody>
-          <tr>
-            <th>sun</th>
-            <th>mon</th>
-            <th>tue</th>
-            <th>wed</th>
-            <th>thu</th>
-            <th>fri</th>
-            <th>sat</th>
-          </tr>
-          <tr>
-            <td style="color: var(--z400);">26</td>
-            <td style="color: var(--z400);">27</td>
-            <td style="color: var(--z400);">28</td>
-            <td style="color: var(--z400);">29</td>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
-            <td>10</td>
-          </tr>
-          <tr>
-            <td>11</td>
-            <td>12</td>
-            <td>13</td>
-            <td>14</td>
-            <td>15</td>
-            <td>16</td>
-            <td>17</td>
-          </tr>
-          <tr>
-            <td>18</td>
-            <td>19</td>
-            <td>20</td>
-            <td>21</td>
-            <td>22</td>
-            <td>23</td>
-            <td>24</td>
-          </tr>
-          <tr>
-            <td>25</td>
-            <td style="background-color: var(--z200); border-radius: .8rem;">26</td>
-            <td>27</td>
-            <td>28</td>
-            <td>29</td>
-            <td>30</td>
-            <td>31</td>
-          </tr>
-          <tr>
-            <td style="color: var(--z400);">1</td>
-            <td style="color: var(--z400);">2</td>
-            <td style="color: var(--z400);">3</td>
-            <td style="color: var(--z400);">4</td>
-            <td style="color: var(--z400);">5</td>
-            <td style="color: var(--z400);">6</td>
-            <td style="color: var(--z400);">7</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header">
-      More Link
-    </div>
-    <div class="card-body">
-      <a href="" class="card-side-btn">:: สพฐ</a>
-      <a href="" class="card-side-btn">:: สทศ</a>
-      <a href="" class="card-side-btn">:: สพม.19</a>
-      <a href="" class="card-side-btn">:: ศิลปหัตถกรรมครั้งที่ 71</a>
-      <a href="" class="card-side-btn">:: โรงเรียนศรีสองรักษ์วิทยา</a>
+    <div class="card">
+      <div class="card-header">
+        More Link
+      </div>
+      <div class="card-body">
+        <a href="" class="card-side-btn">:: สพฐ</a>
+        <a href="" class="card-side-btn">:: สทศ</a>
+        <a href="" class="card-side-btn">:: สพม.19</a>
+        <a href="" class="card-side-btn">:: ศิลปหัตถกรรมครั้งที่ 71</a>
+        <a href="" class="card-side-btn">:: โรงเรียนศรีสองรักษ์วิทยา</a>
+      </div>
     </div>
   </div>
 </div>

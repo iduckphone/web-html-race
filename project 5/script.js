@@ -24,6 +24,10 @@ async function loadHtml(id, path, css, sticky = false) {
   }
 }
 
+if (location.pathname.search("routes") > 0) {
+  window.print()
+}
+
 (async () => {
   await loadHtml("navbar", "./components/navbar/index.html", true, true);
   await loadHtml("header", "./components/header/index.html", true);
@@ -31,5 +35,5 @@ async function loadHtml(id, path, css, sticky = false) {
   await loadHtml("footer", "./components/footer/index.html", true);
   await loadHtml("content-side", "./components/content/side.html", true);
 
-  await loadHtml("content-main", "./routes/side4.html", false);
+  await loadHtml("content-main", "./routes/register.html", false);
 })()
