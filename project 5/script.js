@@ -35,5 +35,5 @@ if (location.pathname.search("routes") > 0) {
   await loadHtml("footer", "./components/footer/index.html", true);
   await loadHtml("content-side", "./components/content/side.html", true);
 
-  await loadHtml("content-main", "./routes/register.html", false);
+  await loadHtml("content-main", "./routes/home.html", false);
 })()
