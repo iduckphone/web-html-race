@@ -13,19 +13,19 @@ async function loadHtml(id, path, css, sticky = false) {
     const html = await response.text();
     if (css) {
       const style = path.replace(path.split("/").pop(), "style.css");
-      if (sticky)
+      if (sticky) {
         element.outerHTML = html.replace("{path}", style)
-      else
+        element.outerHTML = html.replace("{path}", style)
+      }
+      else {
         element.innerHTML = html.replace("{path}", style)
+        element.innerHTML = html.replace("{path}", style)
+      }
     } else
       element.innerHTML = html
   } catch (error) {
     console.error("Error loading HTML:", error);
   }
-}
-
-if (location.pathname.search("routes") > 0) {
-  window.print()
 }
 
 (async () => {
@@ -34,6 +34,5 @@ if (location.pathname.search("routes") > 0) {
   await loadHtml("content", "./components/content/index.html", true);
   await loadHtml("footer", "./components/footer/index.html", true);
   await loadHtml("content-side", "./components/content/side.html", true);
-
   await loadHtml("content-main", "./routes/home.html", false);
 })()
