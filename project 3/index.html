@@ -11,8 +11,10 @@
     * {
         margin: 0;
         padding: 0;
-        box-sizing: border-box
+        box-sizing: border-box;
+        font-size: large;
     }
+
 
     .divred {
         border: .2rem solid red;
@@ -92,82 +94,175 @@
         overflow: auto;
         max-height: 20rem;
     }
+
+    .nav-container {
+        max-width: 1500px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        gap: .8rem;
+    }
+
+    .nav-group {
+        display: flex;
+        gap: .8rem;
+    }
 </style>
 
 <body>
 
     <div class="divred p" style="position: sticky; top: 0;">
+        nav
+        <div class="divblue p nav-container">
+            nav-container
+            <div class="divred p nav-group">
+                nav-group
+                <div class="divblue p">
+                    img size-30
+                </div>
+                <div class="divblue p">
+                    web name
+                </div>
+            </div>
+            <div class="divred p nav-group">
+                nav-group
+                <div class="divblue p">button</div>
+                <div class="divblue p">button</div>
+                <div class="divblue p">button</div>
+                <div class="divblue p">button</div>
+                <div class="divblue p">button</div>
+            </div>
+            <div class="divred p nav-group">
+                nav-group
+                <div class="divblue p">input</div>
+                <div class="divblue p">button</div>
+            </div>
+        </div>
     </div>
 
     <div class="divred container" style="margin-top: 1rem;">
-
+        container
         <div class="divblue p header m">
-        </div>
-
-        <div class="divblue m p">
-        </div>
-
-        <div class="divblue m p content">
-            <div class="divred p content-side">
-                <div class="divblue p">
-                </div>
-                <div class="divblue p">
-                </div>
-                <div class="divblue p">
-                </div>
-                <div class="divblue p">
-                </div>
-            </div>
-            <div class="divred p content-main">
-                <div class="divblue p content-main-header">
-                </div>
-                <div class="divblue p content-main-body" style="grid-template-columns: repeat(2, 1fr);">
-                    <div class="divred p content-main-body-image">
-                    </div>
-                    <div class="divred p content-main-body-text">
-                    </div>
-                </div>
-                <div class="divblue p content-main-body" style="grid-template-columns: repeat(3, 1fr);">
-                    <div class="divred p content-main-body-text">
-                    </div>
-                    <div class="divred p content-main-body-text">
-                    </div>
-                    <div class="divred p content-main-body-text">
-                    </div>
-                </div>
-                <div class="divblue p content-main-overflow" style="grid-template-columns: repeat(3, 1fr);">
-                    <div class="divred p content-main-body-image">
-                    </div>
-                    <div class="divred p content-main-body-image">
-                    </div>
-                    <div class="divred p content-main-body-image">
-                    </div>
-                    <div class="divred p content-main-body-image">
-                    </div>
-                    <div class="divred p content-main-body-image">
-                    </div>
-                    <div class="divred p content-main-body-image">
-                    </div>
-                    <div class="divred p content-main-body-image">
-                    </div>
-                    <div class="divred p content-main-body-image">
-                    </div>
-                    <div class="divred p content-main-body-image">
-                    </div>
-                    <div class="divred p content-main-body-image">
-                    </div>
-                    <div class="divred p content-main-body-image">
-                    </div>
-                    <div class="divred p content-main-body-image">
-                    </div>
-                </div>
+            header
+            <div class="divred p header-content"">
+                header-content
             </div>
         </div>
 
-        <div class="divblue m p">
-        </div>
+        <div class=" divblue m p">
+                marquee
+            </div>
 
-    </div>
+            <div class="divblue m p">
+                content
+                <div class="content">
+                    <div class="divred p">
+                        content-side
+                        <div class="content-side">
+                            <div class="divblue p">
+                                card
+                            </div>
+                            <div class="divblue p">
+                                card
+                            </div>
+                            <div class="divblue p">
+                                card
+                            </div>
+                            <div class="divblue p">
+                                card
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divred p">
+                        content-main
+                        <div class=" content-main">
+                            <div class="divblue p content-main-header">
+                                content-header
+                            </div>
+                            <div class="divblue p" style="margin-bottom: 1rem;">
+                                content-body
+                                <div class="content-main-body" style="grid-template-columns: repeat(2, 1fr);">
+                                    <div class="divred p content-main-body-image">
+                                        content-main-img
+                                    </div>
+                                    <div class="divred p content-main-body-text">
+                                        cotent-main-box
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="divblue p" style="margin-bottom: 1rem;">
+                                content-body
+                                <div class=" content-main-body" style="grid-template-columns: repeat(3, 1fr);">
+                                    <div class="divred p content-main-body-text">
+                                        card
+                                    </div>
+                                    <div class="divred p content-main-body-text">
+                                        card
+                                    </div>
+                                    <div class="divred p content-main-body-text">
+                                        card
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="divblue p">
+                                content-main-body
+                                <div class="content-main-body">
+                                    <div class="divred p">
+                                        content-main-overflow
+                                        <div class="content-main-overflow"
+                                            style="grid-template-columns: repeat(3, 1fr);">
+                                            <div class="divblue p content-main-body-image">
+                                                content-main-img
+                                            </div>
+                                            <div class="divblue p content-main-body-image">
+                                                content-main-img
+                                            </div>
+                                            <div class="divblue p content-main-body-image">
+                                                content-main-img
+                                            </div>
+                                            <div class="divblue p content-main-body-image">
+                                                content-main-img
+                                            </div>
+                                            <div class="divblue p content-main-body-image">
+                                                content-main-img
+                                            </div>
+                                            <div class="divblue p content-main-body-image">
+                                                content-main-img
+                                            </div>
+                                            <div class="divblue p content-main-body-image">
+                                                content-main-img
+                                            </div>
+                                            <div class="divblue p content-main-body-image">
+                                                content-main-img
+                                            </div>
+                                            <div class="divblue p content-main-body-image">
+                                                content-main-img
+                                            </div>
+                                            <div class="divblue p content-main-body-image">
+                                                content-main-img
+                                            </div>
+                                            <div class="divblue p content-main-body-image">
+                                                content-main-img
+                                            </div>
+                                            <div class="divblue p content-main-body-image">
+                                                content-main-img
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="divblue m p">
+                footer
+            </div>
+
+        </div>
 
 </body>
 
