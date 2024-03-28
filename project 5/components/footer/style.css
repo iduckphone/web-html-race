@@ -1,6 +1,6 @@
 .footer {
   padding: 0.8rem;
-  background-image: linear-gradient(var(--sky700), var(--sky500));
+  background-image: linear-gradient(var(--sky700), var(--sky600));
   text-align: center;
   color: var(--sky100);
   border-radius: 0.8rem;
