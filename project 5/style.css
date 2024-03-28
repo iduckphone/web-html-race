@@ -76,7 +76,7 @@
 
 .card-btn {
   width: 100%;
-  background-image: linear-gradient(var(--sky700), var(--sky500));
+  background-color: var(--sky500);
   color: var(--sky200);
   border: none;
   padding: .5rem 0;
@@ -135,7 +135,7 @@
 
 .form-btn {
   width: 100%;
-  background-image: linear-gradient(var(--sky700), var(--sky500));
+  background-color: var(--sky500);
   color: var(--sky200);
   border: none;
   padding: .5rem 0;
