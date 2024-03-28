@@ -45,15 +45,13 @@ async function search() {
   })
 }
 
-document.querySelector(".content-main-img").addEventListener("click", () => window.newTap(this.src))
-
 document.addEventListener("DOMContentLoaded", () => {
   const path = localStorage.getItem("path");
   if (path) {
     setTimeout(() => {
       loadHtml("content-main", path, false);
       localStorage.removeItem("path");
-    }, 50)
+    }, 60)
   }
 });
 
@@ -63,5 +61,5 @@ document.addEventListener("DOMContentLoaded", () => {
   await loadHtml("content", "./components/content/index.html", true);
   await loadHtml("footer", "./components/footer/index.html", true);
   await loadHtml("content-side", "./components/content/side.html", true);
-  await loadHtml("content-main", "./routes/home.html", false);
+  await loadHtml("content-main", "./routes/home.html", false);  
 })()
