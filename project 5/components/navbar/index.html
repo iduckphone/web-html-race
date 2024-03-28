@@ -15,9 +15,9 @@
       <button onclick="loadHtml('content-main', './routes/about.html')" class="nav-btn">About</button>
       <button onclick="loadHtml('content-main', './routes/register.html')" class="nav-btn">Register</button>
     </div>
-    <div class="nav-group">
+    <form class="nav-group" onsubmit="return false">
       <input class="nav-input" type="text" placeholder="Search">
-      <button class="nav-btn">Search</button>
-    </div>
+      <button class="nav-btn" onclick="search()" type="submit">Search</button>
+    </form>
   </div>
 </nav>

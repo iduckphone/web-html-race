@@ -18,18 +18,34 @@ async function loadHtml(id, path, css) {
       localStorage.removeItem("path");
       localStorage.setItem("path", path);
     }
-    const images = element.querySelectorAll("img");
-    images.forEach((image) => {
-      const src = image.getAttribute("src");
-      image.src = path;
-      setTimeout(() => {
-        image.src = src;
-      }, 30);
-    })
   } catch (error) {
     console.error("Error loading HTML:", error);
   }
 }
+
+async function search() {
+  const input = document.querySelector(".nav-input")
+  const path = [
+    "home.html",
+    "gallery.html",
+    "videos.html",
+    "about.html",
+    "register.html",
+    "side1.html",
+    "side2.html",
+    "side3.html",
+    "side4.html",
+    "side5.html"
+  ]
+  path.forEach(async (item) => {
+    const response = await fetch(`./routes/${item}`);
+    const html = await response.text();
+    if (html.includes(input.value))
+      loadHtml("content-main", `./routes/${item}`, false);
+  })
+}
+
+document.querySelector(".content-main-img").addEventListener("click", () => window.newTap(this.src))
 
 document.addEventListener("DOMContentLoaded", () => {
   const path = localStorage.getItem("path");
