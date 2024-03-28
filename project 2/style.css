@@ -24,7 +24,7 @@
 
 
 .nav {
-    background-color: var(--sky800);
+    background-color: var(--z800);
     position: sticky;
     top: 0;
     z-index: 10;
@@ -44,7 +44,7 @@
 .nav-title {
     font-weight: 600;
     font-size: large;
-    color: var(--sky50);
+    color: var(--z50);
 }
 
 .nav-group {
@@ -55,8 +55,8 @@
 }
 
 .nav-btn {
-    background-image: linear-gradient(var(--sky700), var(--sky500));
-    color: var(--sky50);
+    background-image: linear-gradient(var(--z700), var(--z500));
+    color: var(--z50);
     border: none;
     padding: .2rem .8rem;
     border-radius: .8rem;
@@ -67,12 +67,12 @@
 
 .nav-btn:hover {
     opacity: 100%;
-    background-color: var(--sky600);
+    background-color: var(--z600);
 }
 
 .nav-search-input {
-    background-image: linear-gradient(var(--sky700), var(--sky500));
-    color: var(--sky50);
+    background-image: linear-gradient(var(--z700), var(--z500));
+    color: var(--z50);
     border: none;
     padding: .2rem .8rem;
     border-radius: .8rem;
@@ -84,11 +84,11 @@
 .nav-search-input:focus {
     outline: none;
     opacity: 100%;
-    background-color: var(--sky600);
+    background-color: var(--z600);
 }
 
 .nav-search-input::placeholder {
-    color: var(--sky50);
+    color: var(--z50);
 }
 
 .nav-search-input::-webkit-search-cancel-button {
@@ -96,8 +96,8 @@
 }
 
 .nav-search-btn {
-    background-image: linear-gradient(var(--sky700), var(--sky500));
-    color: var(--sky50);
+    background-image: linear-gradient(var(--z700), var(--z500));
+    color: var(--z50);
     border: none;
     padding: .2rem .8rem;
     border-radius: .8rem;
@@ -108,12 +108,12 @@
 
 .nav-search-btn:hover {
     opacity: 100%;
-    background-color: var(--sky600);
+    background-color: var(--z600);
 }
 
 .marquee {
-    color: var(--sky700);
-    background-color: var(--sky50);
+    color: var(--z700);
+    background-color: var(--z50);
     padding: .5rem;
     border-radius: .8rem;
     font-weight: 600;
@@ -133,7 +133,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid var(--sky50);
+    border: 3px solid var(--z50);
     border-radius: 2rem;
     width: 100%;
     background-image: url(https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg);
@@ -145,7 +145,7 @@
 .header-display {
     position: absolute;
     text-align: center;
-    color: var(--sky50);
+    color: var(--z50);
     width: 70%;
     font-size: 1.5rem;
     font-weight: 600;
@@ -172,11 +172,11 @@
     width: 100%;
     border: 0;
     padding: 0.7rem;
-    background-color: var(--sky50);
+    background-color: var(--z50);
     font-size: medium;
-    border-left: .1rem solid var(--sky50);
-    border-right: .1rem solid var(--sky50);
-    border-bottom: .1rem solid var(--sky50);
+    border-left: .1rem solid var(--z50);
+    border-right: .1rem solid var(--z50);
+    border-bottom: .1rem solid var(--z50);
     transition-duration: 0.2s;
 }
 
@@ -185,26 +185,26 @@
 }
 
 .content-side-btn:hover {
-    background-color: var(--sky50);
+    background-color: var(--z50);
 }
 
 .content-main-header {
     margin-bottom: .8rem;
     font-weight: 600;
     font-size: large;
-    color: var(--sky50);
+    color: var(--z50);
     text-align: center;
-    background-image: linear-gradient(var(--sky700), var(--sky500));
+    background-image: linear-gradient(var(--z700), var(--z500));
     border-radius: .8rem;
     padding: .6rem;
 }
 
 .content-main-body {
     margin-bottom: .8rem;
-    background-color: var(--sky50);
+    background-color: var(--z50);
     border-radius: .8rem;
     padding: .8rem;
-    color: var(--sky800);
+    color: var(--z800);
 }
 
 .content-main-body:last-child {
@@ -218,14 +218,14 @@
     font-size: medium;
     border-radius: .8rem;
     padding: .8rem;
-    background-color: var(--sky50);
+    background-color: var(--z50);
     height: 100%;
 }
 
 .content-main-body-img {
     width: 100%;
     height: 150px;
-    border: .1rem solid var(--sky50);
+    border: .1rem solid var(--z50);
     border-radius: .8rem;
     transition-duration: 0.2s;
 }
@@ -240,9 +240,9 @@
 
 .card-header {
     border-radius: .8rem .8rem 0 0;
-    background-image: linear-gradient(var(--sky700), var(--sky500));
+    background-image: linear-gradient(var(--z700), var(--z500));
     padding: .6rem;
-    color: var(--sky50);
+    color: var(--z50);
     font-weight: 600;
     text-align: center;
     font-size: large;
@@ -254,8 +254,8 @@
 }
 
 .card-body {
-    background-color: var(--sky50);
-    color: var(--sky800);
+    background-color: var(--z50);
+    color: var(--z800);
     border-radius: 0 0 .8rem .8rem;
 }
 
@@ -269,15 +269,15 @@
     width: 100%;
     border: 0;
     padding: .5rem;
-    background-image: linear-gradient(var(--sky700), var(--sky500));
-    color: var(--sky50);
+    background-image: linear-gradient(var(--z700), var(--z500));
+    color: var(--z50);
     border-radius: .8rem;
     transition-duration: 0.2s;
     font-weight: 600;
 }
 
 .card-btn:hover {
-    background-color: var(--sky600);
+    background-color: var(--z600);
 }
 
 .card-form {
@@ -293,7 +293,7 @@
     font-size: .8rem;
     font-weight: 400;
     line-height: 1.5;
-    color: var(--sky700);
+    color: var(--z700);
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: .5rem;
@@ -301,7 +301,7 @@
 }
 
 .card-form-input:focus {
-    border-color: var(--sky400);
+    border-color: var(--z400);
     outline: 0;
     box-shadow: 0 0 0 .25rem rgba(63, 63, 63, 0.25)
 }
@@ -310,8 +310,8 @@
     width: 100%;
     border: 0;
     padding: .5rem;
-    background-image: linear-gradient(var(--sky700), var(--sky500));
-    color: var(--sky50);
+    background-image: linear-gradient(var(--z700), var(--z500));
+    color: var(--z50);
     border-radius: .8rem;
     font-weight: 600;
     font-size: medium;
@@ -322,14 +322,14 @@
 }
 
 .card-form-submit:hover {
-    background-color: var(--sky600);
+    background-color: var(--z600);
 }
 
 .footer {
     padding: .8rem;
-    background-image: linear-gradient(var(--sky700), var(--sky500));
+    background-image: linear-gradient(var(--z700), var(--z500));
     text-align: center;
-    color: var(--sky50);
+    color: var(--z50);
     border-radius: .8rem;
     font-weight: 600;
 }
@@ -347,8 +347,8 @@
 
 .scolls-btn {
     padding: .5rem;
-    background-image: linear-gradient(var(--sky700), var(--sky500));
-    color: var(--sky50);
+    background-image: linear-gradient(var(--z700), var(--z500));
+    color: var(--z50);
     border-radius: .8rem;
     font-weight: 600;
     transition: all;
@@ -367,7 +367,7 @@
 }
 
 .scolls-btn:hover {
-    background-color: var(--sky600);
+    background-color: var(--z600);
 }
 
 .modal {
@@ -405,5 +405,5 @@ td {
 
 td:hover {
     cursor: pointer;
-    background-color: var(--sky300);
+    background-color: var(--z300);
 }
