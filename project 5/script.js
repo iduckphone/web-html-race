@@ -18,6 +18,14 @@ async function loadHtml(id, path, css) {
       localStorage.removeItem("path");
       localStorage.setItem("path", path);
     }
+    const images = element.querySelectorAll("img");
+    images.forEach((image) => {
+      const src = image.getAttribute("src");
+      image.src = path;
+      setTimeout(() => {
+        image.src = src;
+      }, 30);
+    })
   } catch (error) {
     console.error("Error loading HTML:", error);
   }
